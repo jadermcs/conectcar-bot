@@ -1,0 +1,67 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - olá
+    - oi
+    - bom dia
+    - boa tarde
+    - boa noite
+
+- intent: goodbye
+  examples: |
+    - até
+    - tchau
+    - até mais
+
+- intent: affirm
+  examples: |
+    - sim
+    - certo
+    - correto
+    - confirmo
+
+- intent: deny
+  examples: |
+    - não
+
+- intent: bot_challenge
+  examples: |
+    - você é um robo?
+    - você é humano?
+    - estou falando com um humano?
+    - estou falando com um robo?
+    - você é uma pessoa real?
+
+- intent: plans
+  examples: |
+    - quais são os planos?
+    - quais são seus serviços?
+    - me informe sobre os planos
+
+- intent: usage
+  examples: |
+    - como baixar o app conectcar?
+    - como consulto meu saldo?
+    - como incluir novo veículo na minha conta?
+    - como troco o conectcar do carro?
+    - outros canais de atendimento
+    - troca de cartão de crédito
+    - o que fazer se identifiquei uma cobrança incorreta?
+
+- intent: cancellation
+  examples: |
+    - como cancelar meu conectcar?
+    - desejo cancelar meu conectcar
+
+- intent: activation
+  examples: |
+    - como instalar meu adesivo?
+    - como ativar meu conectcar?
+    - a ativação pode ser feita em qualquer plano?
+
+- intent: recharge
+  examples: |
+    - como fazer uma recarga?
+    - desejo fazer uma recarga?
