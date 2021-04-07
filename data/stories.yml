@@ -28,3 +28,38 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: cancellation path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cancellation
+  - action:
+
+- story: usage path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: usage
+  - action:
+
+- story: plans path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: plans
+  - action:
+
+- story: activation path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: activation
+  - action:
+
+- story: recharge path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recharge
+  - action:
