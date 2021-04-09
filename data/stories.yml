@@ -2,64 +2,59 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: deals path 1
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
+  - intent: promotion
+  - action: utter_promotion_info
+  - intent: affim
   - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: affim
+  - action: utter_goodbye
 
-- story: sad path 2
+- story: deals path 2
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
+  - intent: promotion
+  - action: utter_promotion_info
+  - intent: affim
   - action: utter_did_that_help
   - intent: deny
-  - action: utter_goodbye
+  - action: utter_question
 
 - story: cancellation path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: cancellation
-  - action:
+  - action: utter_cancellation_info
 
 - story: usage path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: usage
-  - action:
+  - action: utter_usage_info
 
 - story: plans path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: plans
-  - action:
+  - action: utter_plans_info
 
 - story: activation path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: activation
-  - action:
+  - action: utter_activation_info
 
 - story: recharge path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: recharge
-  - action:
+  - action: utter_recharge_info

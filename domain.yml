@@ -17,21 +17,35 @@ responses:
   - text: "Olá, sou o bot da Connectcar, em que posso ajudá-lo?"
   - text: "Oi, em que posso ajudá-lo?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Isso te ajudou?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_question:
+  - text: "O que mais você precisa saber?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Tchau! Qualquer nova duvida não exite em me chamar."
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Eu sou um robô, fui desenvolvido por pesquisadores da Unicamp para atende-lo da melhor forma."
+
+  utter_promotion_info:
+  - text: "Temos as promoções x, y, z."
+
+  utter_cancellation_info:
+  - text: "Lamentamos que precise cancelar nosso plano, por favor, informe seu CPF."
+
+  utter_usage_info:
+  - text: "Você deve proceder da seguinte forma..."
+
+  utter_plans_info:
+  - text: "Temos os planos x, y, z."
+
+  utter_activation_info:
+  - text: "Para ativar seu conectcar você deve proceder da seguinte forma..."
+
+  utter_recharge_info:
+  - text: "Para recarregar você deve proceder da seguinte forma..."
 
 session_config:
   session_expiration_time: 60

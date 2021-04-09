@@ -3,7 +3,7 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
-    - olá
+    - ola
     - oi
     - bom dia
     - boa tarde
@@ -11,9 +11,9 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - até
+    - ate
     - tchau
-    - até mais
+    - ate mais
 
 - intent: affirm
   examples: |
@@ -21,24 +21,29 @@ nlu:
     - certo
     - correto
     - confirmo
+    - entendi
+    - ok
+    - okay
+    - beleza
 
 - intent: deny
   examples: |
-    - não
+    - nao
 
 - intent: bot_challenge
   examples: |
-    - você é um robo?
-    - você é humano?
+    - voce e um robo?
+    - voce e humano?
     - estou falando com um humano?
     - estou falando com um robo?
-    - você é uma pessoa real?
+    - voce e uma pessoa real?
 
 - intent: plans
   examples: |
-    - quais são os planos?
-    - quais são seus serviços?
+    - quais sao os planos?
+    - quais sao seus servicos?
     - me informe sobre os planos
+    - gostaria de saber mais sobre os planos.
 
 - intent: usage
   examples: |
@@ -48,7 +53,7 @@ nlu:
     - como troco o conectcar do carro?
     - outros canais de atendimento
     - troca de cartão de crédito
-    - o que fazer se identifiquei uma cobrança incorreta?
+    - o que fazer se identifiquei uma cobranca incorreta?
 
 - intent: cancellation
   examples: |
@@ -59,9 +64,18 @@ nlu:
   examples: |
     - como instalar meu adesivo?
     - como ativar meu conectcar?
-    - a ativação pode ser feita em qualquer plano?
+    - a ativacao pode ser feita em qualquer plano?
 
 - intent: recharge
   examples: |
     - como fazer uma recarga?
     - desejo fazer uma recarga?
+
+- intent: promotion
+  examples: |
+    - quais suas promocoes?
+    - me informe das ofertas.
+    - me informe das promocoes.
+    - quais sao as promocoes?
+    - me informe sobre as promocoes
+    - gostaria de saber mais sobre as promocoes.
